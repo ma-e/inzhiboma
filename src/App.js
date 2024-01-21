@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>ZHIBO MA</h1>
-        <p>WDNMD
-          Have a good day,LI MA
+        <p>
+          Welcome to my site.
         </p>
       </header>
     </div>
