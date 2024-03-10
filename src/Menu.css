@@ -59,15 +59,10 @@
   
   @media only screen and (max-width: 600px) {
     .menu ul {
-      display: ${isOpen ? 'flex' : 'none'};
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
   
     .menu ul li {
       margin-left: 0;
