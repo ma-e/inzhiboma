@@ -1,21 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import zhiboma from './ZHIBOMA.png';
-import Menu from './Menu';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import News from "./News";
+import Publication from "./Publication";
+import Projects from "./Projects";
+import Leadership from "./Leadership";
+import SportAndMusic from "./SportAndMusic";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <Menu />
-      <img src={zhiboma}/>
-        <h1>ZHIBO MA</h1>
-        <p>
-          Welcome to my site.
-        </p>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+ return (
+   <Router>
+     <Navbar />
+     <main className="main-content">
+       <Routes>
+         <Route path="/publications" element={<Publication />} />
+         <Route path="/" element={<News />} />
+         <Route path="/leadership" element={<Leadership />} />
+         <Route path="/sportmusic" element={<SportAndMusic/>} />
+         <Route path="/projects" element={<Projects />} />
+       </Routes>
+     </main>
+   </Router>
+ );
+};
 
 export default App;

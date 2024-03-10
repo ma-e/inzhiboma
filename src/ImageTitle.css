@@ -1,0 +1,19 @@
+.image-title-container {
+    display: flex; /* Arrange image and title side-by-side */
+    width: 100%; /* Take up full width of container */
+    align-items: center; /* Align content vertically in the middle */
+    padding: 50px;
+  }
+  
+  .image {
+    width: 50%; /* Take up 50% of the container width */
+    object-fit: cover; /* Resize image to fit container while maintaining aspect ratio */
+    padding: 50px;
+  }
+  
+  .title-container {
+    width: 50%; /* Take up 50% of the container width */
+    text-align: center; /* Center text horizontally */
+    padding: 50px;
+  }
+  

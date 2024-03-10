@@ -37,3 +37,12 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+}
+
+.left-section, .right-section {
+  width: 50vw; /* Set width to 50% of the viewport width */
+  padding: 20px; /* Add padding as needed */
+}
