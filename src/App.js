@@ -8,12 +8,15 @@ import Publication from "./Publication";
 import Projects from "./Projects";
 import Leadership from "./Leadership";
 import SportAndMusic from "./SportAndMusic";
+import Footer from "./Footer";
 
 const App = () => {
  return (
+  <>
    <Router>
      <Navbar />
      <main className="main-content">
+      
        <Routes>
          <Route path="/publications" element={<Publication />} />
          <Route path="/" element={<News />} />
@@ -23,6 +26,10 @@ const App = () => {
        </Routes>
      </main>
    </Router>
+   <Footer />
+   </>
+  
+  
  );
 };
 
