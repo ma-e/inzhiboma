@@ -8,7 +8,7 @@
   .image {
     width: 50%; /* Take up 50% of the container width */
     object-fit: cover; /* Resize image to fit container while maintaining aspect ratio */
-    padding: 50px;
+    padding: 200px;
   }
   
   .title-container {

@@ -3,11 +3,13 @@ import z from './z.png';
 import ImageTitle from './ImageTitle';
 
 function Leadership() {
-    const title = 'I am the founder of Z LLC, a company dedicated to assisting students whose native language is not English. Currently, our focus is on serving Chinese-speaking students at our initial stage. However, our vision extends beyond this, as we aim to broaden our support to benefit a wider audience in the future.';
+    const title = "Zhibo Education";
+    const subTitle = "2024 - Present";
+    const content = "Zhibo Education is committed to supporting students whose first language is not English. Currently, our team consists of 8 members located in cities across the United States and China. I am dedicated to creating a positive impact in the field of education.";
     return (
         <div className="home">
           <p>
-              <ImageTitle image={z} title={title} />        
+              <ImageTitle image={z} title={title} subTitle={subTitle} content={content}/>        
             </p>
         </div>
     );
