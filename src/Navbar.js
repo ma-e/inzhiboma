@@ -58,7 +58,7 @@ const Navbar = () => {
                className="nav__link"
                 onClick={closeMenuOnMobile}
              >
-              Projects
+              Rusume
              </NavLink>
            </li>
            
